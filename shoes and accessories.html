@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        header {
+            background-color: rgb(165, 163, 163);
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .right-section{
+            display: flex;
+            align-items: center;
+            position:absolute;
+            
+            width:10px;
+            height:10px;
+        }
+        .left-section {
+            display: flex;
+            align-items: center;
+            
+            position:absolute;
+            right:20px;
+
+        }
+        .menu {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            padding: 0;
+        }
+        .menu ul li {
+            display: inline;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+        }
+
+        .search-bar {
+            padding: 15px 50px;
+            border: 2px solid rgb(47, 40, 40);
+            border-radius: 20px;
+        }
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+        .logo span {
+            color: #f4a261;
+        }
+        .menu {
+            flex-grow: 1;
+            text-align: center;
+            color:white;
+        }
+.show img {
+    width: 100%;
+    border-radius:20px;
+}
+.show-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.show {
+    width: calc(25% - 10px);
+    
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+h1{
+    color: #2d2c2b;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+<header>
+        <nav>
+             <div class="left-section">
+            <input type="text" class="search-bar" placeholder="Search">
+            </div>
+            <div class="right-section">
+                <img src="D:\se sem1\technologies for web development\clothing store\images\images\Logo.png" alt="noura logo" style="width:130px;height:100px;">
+            </div>
+
+            <div class="menu">
+                
+                <ul>
+                    <li><a href="clothingstore.html">HOME</a></li>
+                    <li><a href="womenfashion.html"> WOMEN FASHION</a></li>
+                    <li><a href="mensfashion.html">MEN FASHION</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <div>
+        <h1>____Shoes & Accessories____</h1>
+    </div>
+   <div class="show-container">
+            <div class="show">
+                 
+                <img src="D:\se sem1\technologies for web development\clothing store\images\imag2.jpg" style="width:300px;height:480px;" alt="Show n21">
+                <h3>Smart Casual Outfit</h3> 
+                <p>Rs.4570.00</p>        
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\imag17.jpg" style="width:300px;height:480px;" alt="Show n22">
+                <h3>Office Wear</h3>
+                <p>Rs.5570.00</p>
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\imag11.jpg" style="width:300px;height:480px;" alt="Show n23">
+                <h3>Stylish Wear</h3>
+                <p>Rs.5570.00</p>
+
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\imag18.jpg"  style="width:300px;height:480px;" alt="Show n24">               
+                <h3>Smart Casual Outfit</h3>
+                <p>Rs.5570.00</p>
+            </div>
+            
+
+
+        </div>
+
+<div class="show-container">
+            <div class="show">
+                 
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a3.jpg" style="width:300px;height:480px;" alt="Show n21">
+                 <h3> Casual Frock </h3>
+                <p>Rs.3560.00</p>        
+            </div>
+            <div class="show">
+               
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a15.jpg" style="width:300px;height:480px;" alt="Show n22">
+                <h3>Smart Casual Outfit</h3>
+                <p>Rs.5970.00</p>
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a4.jpg" style="width:300px;height:480px;" alt="Show n23">
+<h3>Smart Casual Outfit</h3>
+                <p>Rs.2570.00</p>
+                
+            </div>
+            <div class="show">
+               
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a13.jpg"  style="width:300px;height:480px;" alt="Show n24">               
+               <h3>Smart Casual Outfit</h3>
+                <p>Rs.5450.00</p>
+            </div>
+            
+
+
+        </div>
+<div class="show-container">
+            <div class="show">
+                 
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a1.jpg" style="width:300px;height:480px;" alt="Show n21">
+                <h3>Smart Casual Outfit</h3> 
+                <p>Rs.4570.00</p>        
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a2.jpg" style="width:300px;height:480px;" alt="Show n22">
+                <h3>Office Wear</h3>
+                <p>Rs.5570.00</p>
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a16.jpg" style="width:300px;height:480px;" alt="Show n23">
+                <h3>Stylish Wear</h3>
+                <p>Rs.5570.00</p>
+
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a12.jpg"  style="width:300px;height:480px;" alt="Show n24">               
+                <h3>Smart Casual Outfit</h3>
+                <p>Rs.5570.00</p>
+            </div>
+            
+
+
+        </div>
+
+<div class="show-container">
+            <div class="show">
+                 
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a5.jpg" style="width:300px;height:480px;" alt="Show n21">
+                 <h3> Casual Frock </h3>
+                <p>Rs.3560.00</p>        
+            </div>
+            <div class="show">
+               
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a8.jpg" style="width:300px;height:480px;" alt="Show n22">
+                <h3>Smart Casual Outfit</h3>
+                <p>Rs.5970.00</p>
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a9.jpg" style="width:300px;height:480px;" alt="Show n23">
+<h3>Smart Casual Outfit</h3>
+                <p>Rs.2570.00</p>
+                
+            </div>
+            <div class="show">
+               
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a14.jpg"  style="width:300px;height:480px;" alt="Show n24">               
+               <h3>Smart Casual Outfit</h3>
+                <p>Rs.5450.00</p>
+            </div>
+            
+
+
+        </div>
+
+<div class="show-container">
+            <div class="show">
+                 
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a10.jpg" style="width:300px;height:480px;" alt="Show n21">
+                 <h3> Casual Frock </h3>
+                <p>Rs.3560.00</p>        
+            </div>
+            <div class="show">
+               
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a11.jpg" style="width:300px;height:480px;" alt="Show n22">
+                <h3>Smart Casual Outfit</h3>
+                <p>Rs.5970.00</p>
+            </div>
+            <div class="show">
+                
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a6.jpg" style="width:300px;height:480px;" alt="Show n23">
+<h3>Smart Casual Outfit</h3>
+                <p>Rs.2570.00</p>
+                
+            </div>
+            <div class="show">
+               
+                <img src="D:\se sem1\technologies for web development\clothing store\images\a7.jpg"  style="width:300px;height:480px;" alt="Show n24">               
+               <h3>Smart Casual Outfit</h3>
+                <p>Rs.5450.00</p>
+            </div>
+            
+
+
+        </div>
+
+
+<footer>
+            <div class="footer-container">
+                <p style="color:#B2BEB5">Copyright © 2023 Noura Inc. All rights reserved.</p>
+                <div class="footer-links">
+                <p>
+                    Internet Services | 
+                    Noura Fashion & Privacy | 
+                   Cookie Policy | 
+                    Support
+                </p>
+                </div>
+            </div>
+        </footer>
+
+
+
+

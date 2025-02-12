@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+   <title>Login Form</title>
+
+   <style>
+      h2 {
+         color: rgb(37, 34, 34);
+         text-align: center;
+      }
+
+      form {
+         background:rgb(106, 103, 103);
+         padding: 20px;
+         border-radius: 10px;
+         text-align: center;
+         width: 500px;
+         margin: auto;
+      }
+
+      .pp {
+         padding: 15px;
+         border-radius: 15px;
+         box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+         background: white;
+         width: 400px;
+         margin-bottom: 15px;
+      }
+
+      .form-btn {
+         padding: 10px 20px;
+         background-color: blue;
+         color: black;
+         border: none;
+         border-radius: 1px;
+         cursor: pointer;
+      }
+
+      .form-btn:hover {
+         background-color: darkbrown;
+      }
+
+      .form p {
+         text-align: center;
+      }
+       header {
+            background-color: rgb(165, 163, 163);
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+                .right-section{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position:absolute;
+            left:20px;
+            width:10px;
+            height:10px;
+        }
+        
+        .button {
+            background-color: blue;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+        .logo span {
+            color: #f4a261;
+        }
+        .menu {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 0;
+        }
+        .menu ul li {
+            display: inline;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+        }
+
+        .form-btn {
+         padding: 5px 20px;
+         background-color: rgb(236, 98, 98);
+         color: black;
+         border: none;
+         border-radius: 15px;
+         cursor: pointer;
+      }
+
+      .form-btn1 {
+         padding: 10px 30px;
+         background-color: rgb(115, 160, 222);
+         color: black;
+         border: none;
+         border-radius: 15px;
+         cursor: pointer;
+      }
+
+      .form-btn:hover {
+         background-color: red;
+      }
+
+      .form-btn1:hover {
+         background-color: rgb(13, 0, 255);
+      }
+
+      a{
+         text-decoration: none;
+      }
+   </style>
+
+</head>
+<body>
+<header>
+      <nav>
+          <div class="right-section">
+              <img src="D:\se sem1\technologies for web development\clothing store\images\images\Logo.png" alt="noura logo" style="width:130px;height:100px;">
+          </div>
+          <div class="menu">
+              
+              <ul>
+                  <li><a href="clothingstore.html">Home</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  <br><br><br><br><br>
+   <div class="form" enctype="multipart/form-data">
+      <form>
+         <h2>Login</h2>
+         <input type="email" name="email" class="pp" required placeholder="Enter your email"><br>
+         <input type="password" name="password" class="pp" required placeholder="Enter your password"><br><br>
+         <input type="submit" name="submit" value="Login" class="form-btn1"><br>
+         <p>Don't have an account? <a href="#" class="form-btn">Register now</a></p><br><br>
+      </form>
+   </div>
+</body>
+</html>

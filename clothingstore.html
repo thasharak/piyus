@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        header {
+            background-color: rgb(165, 163, 163);
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .left-section {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position:absolute;
+            right:20px;
+
+        }
+        .right-section{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            position:absolute;
+            left:20px;
+            width:10px;
+            height:10px;
+        }
+        .search-bar {
+            padding: 10px 40px;
+            border: 2px solid rgb(47, 40, 40);
+            border-radius: 20px;
+        }
+        .button {
+            background-color: rgb(255, 255, 255);
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: rgb(255, 255, 255);
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .button:hover{
+            background-color: rgb(225, 35, 35);
+        }
+        .button1:hover{
+            background-color: rgb(68, 62, 242);
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+        .logo span {
+            color: #f4a261;
+        }
+        .menu {
+            flex-grow: 1;
+            text-align: center;
+        }
+        .menu ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 0;
+        }
+        .menu ul li {
+            display: inline;
+        }
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .shows {
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+.show-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.show {
+    width: calc(20% - 10px);
+    margin-bottom: 2rem;
+   
+}
+
+.show img {
+    width: 100%;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.footer-container.p{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+ }
+h1{
+    color: #2d2c2b;
+    text-align: center;
+  }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left-section">
+               
+                <input type="text" class="search-bar" placeholder="                Search">
+                <button class="button"><a href="sign2.html">Sign In</a></button>
+                <button class="button1"><a href="login.html">Login</a></button>
+            </div>
+            <div class="right-section">
+                <img src="D:\se sem1\technologies for web development\clothing store\images\images\Logo.png" alt="noura logo" style="width:130px;height:100px;">
+            </div>
+
+            <div class="menu">
+                
+                <ul>
+                    <li><a href=""clothingstore.html"">Home</a></li>
+                    <li><a href="shopnow.html"> Shop Now</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="background">
+        <img src="D:\se sem1\technologies for web development\clothing store\images\background.jpg" alt="background" style="width: 1500px;height:750px">
+    </section> 
+<div>
+        <h1>____New Arrivals____</h1>
+    </div> 
+    
+    <section class="shows">
+        
+        <div class="show-container">
+            <div class="show">
+                <a href="#">
+                <img src="D:\se sem1\technologies for web development\clothing store\images\Denim Cotton Shirt.jpeg" alt="Show n11"></a>
+                <h3>Denim cotton shirts</h3>
+                <p>20% discount</p>
+                
+            </div>
+            <div class="show">
+                <a href="#">
+                <img src="D:\se sem1\technologies for web development\clothing store\images\Men Solid Button Up Shirt.jpeg" alt="Show n12"></a>
+                <h3>Men solid button up shirt</h3>
+                <p>15% discount</p>
+                
+            </div>
+            <div class="show">
+                
+                <a href="#">
+                <img src="D:\se sem1\technologies for web development\clothing store\images\item1.jpeg" alt="item1"></a>
+                <h3>Kids wear</h3>
+                <p>10% discount</p>
+            </div>
+            <div class="show">
+                <a href="#">
+                <img src="D:\se sem1\technologies for web development\clothing store\images\item2.jpeg" alt="item2"></a>               
+                <h3>Girls frock</h3>
+                <p>5% discount</p>
+                
+            </div>
+            <div class="show">
+                <a href="#">
+                <img src="D:\se sem1\technologies for web development\clothing store\images\Bnak Officer.jpeg" alt="item3"></a>
+                <h3>Office wear</h3>
+                <p>25% discount</p>
+
+            </div>
+
+
+        </div>
+        <footer>
+            <div class="footer-container">
+                <p style="color:#B2BEB5">Copyright © 2023 Noura Inc. All rights reserved.</p>
+                <div class="footer-links">
+                <p>
+                    Internet Services | 
+                    Noura Fashion & Privacy | 
+                   Cookie Policy | 
+                    Support
+                </p>
+                </div>
+            </div>
+        </footer>
+        
+
+</body>
+</html>
